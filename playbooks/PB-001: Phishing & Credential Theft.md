@@ -62,7 +62,7 @@ Initiate this playbook when any of the following occur:
 
 ### 1. Initial Triage
 
-📘 Runbook: [RB-001.1 Email Triage & Header Analysis](../runbooks/phishing/RB-001-1-email-triage.md)
+📘 Runbook: [RB-001.1 Email Triage & Header Analysis](../runbooks/phishing/RB-001.1-email-triage-header-analysis.md)
 
 - Extract and analyse email headers
 - Validate sender authenticity (SPF/DKIM/DMARC)
