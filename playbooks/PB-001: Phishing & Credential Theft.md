@@ -62,7 +62,7 @@ Initiate this playbook when any of the following occur:
 
 ### 1. Initial Triage
 
-📘 Runbook: [RB-001.1 Email Triage & Header Analysis](../runbooks/phishing/RB-001-1-email-triage-header-analysis.md)
+📘 Runbook: [RB-001.1 Email Triage & Header Analysis](../runbooks/phishing/RB-001.1-email-triage-header-analysis.md)
 
 - Extract and analyse email headers
 - Validate sender authenticity (SPF/DKIM/DMARC)
@@ -77,7 +77,7 @@ Initiate this playbook when any of the following occur:
 
 ### 2. URL & Attachment Analysis
 
-📘 Runbook: [RB-001.2 URL Detonation & Analysis](../runbooks/phishing/RB-001-2-url-analysis.md)
+📘 Runbook: [RB-001.2 URL Detonation & Analysis](../runbooks/phishing/RB-001.2-url-analysis.md)
 
 - Detonate URLs in sandbox
 - Analyse redirect chains
@@ -93,7 +93,7 @@ Initiate this playbook when any of the following occur:
 
 ### 3. User Interaction Verification
 
-📘 Runbook: [RB-001.3 Credential Exposure Validation](../runbooks/phishing/RB-001-3-credential-check.md)
+📘 Runbook: [RB-001.3 Credential Exposure Validation](../runbooks/phishing/RB-001.3-credential-check.md)
 
 - Determine if user:
   - Clicked link
@@ -114,7 +114,7 @@ Sources:
 
 ### 4. Account Containment
 
-📘 Runbook: [RB-001.4 Account Lockdown (IdP/SSO)](../runbooks/phishing/RB-001-4-account-lockdown.md)
+📘 Runbook: [RB-001.4 Account Lockdown (IdP/SSO)](../runbooks/phishing/RB-001.4-account-lockdown.md)
 
 - Disable or lock affected account
 - Revoke active sessions and tokens
@@ -130,7 +130,7 @@ If suspicious login activity observed:
 
 ### 5. Environment-Wide Hunting
 
-📘 Runbook: [RB-001.5 Phishing Retro Hunt](../runbooks/phishing/RB-001-5-retrohunt.md)
+📘 Runbook: [RB-001.5 Phishing Retro Hunt](../runbooks/phishing/RB-001.5-retrohunt.md)
 
 - Search for:
   - Same sender
@@ -151,7 +151,7 @@ Across:
 
 ### 6. Email Remediation
 
-📘 Runbook: [RB-001.6 Email Removal & Blocking](../runbooks/phishing/RB-001-6-remediation.md)
+📘 Runbook: [RB-001.6 Email Removal & Blocking](../runbooks/phishing/RB-001.6-remediation.md)
 
 - Remove emails from inboxes (tenant-wide)
 - Block sender/domain
@@ -164,7 +164,7 @@ Across:
 
 ### 7. User Communication
 
-📘 Runbook: [RB-001.7 User Notification](../runbooks/phishing/RB-001-7-user-comms.md)
+📘 Runbook: [RB-001.7 User Notification](../runbooks/phishing/RB-001.7-user-comms.md)
 
 - Notify affected users
 - Provide:
